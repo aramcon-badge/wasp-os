@@ -29,6 +29,7 @@ class FacesApp():
         choices.append(('dual_clock', 'DualClock'))
         choices.append(('fibonacci_clock', 'FibonacciClock'))
         choices.append(('word_clock', 'WordClock'))
+        choices.append(('unix_clock', 'UnixClock'))
 
         self.choices = choices
         self.choice = 0
